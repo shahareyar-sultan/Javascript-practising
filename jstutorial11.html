@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jstutorial 11</title>
+
+
+
+
+
+
+    <style>
+        h1 {
+        text-align: center;
+        color: rgb(77, 47, 36);
+        font-size: 4rem;
+        }
+        p{
+            font-size: 3rem;
+            text-transform: capitalize;
+        }
+
+        body{
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: brown
+        }
+    </style>
+
+
+
+
+
+
+</head>
+
+<body>
+    <h1><u>Learn about calculation of different shapes(2D) of area</u></h1>
+
+    <p>=> Formula sheet for area of 2D shape = Go to javascript images </p>
+    <p>=> Learn about how to calculate areas of Square, Rectangle, Triangle, Trapezium, Parallelogram, Rhombus, Kite. </p>
+
+    <script>
+// Programme for Square and Rectengle area starts here
+
+var base = parseFloat(prompt("Enter Base :"));
+var height = parseFloat(prompt("Enter Height :"));
+
+var area = base * height;
+
+document.write("Area for Square and Rectengle =" + area + "<br>");
+
+// Programme for Square and Rectengle area ends here
+
+
+/*
+var base = parseInt(prompt("Enter Base :"));
+var height = parseInt(prompt("Enter height :"));
+Only work for integer(purnoshongkha)
+*/
+
+// Programme starts for triangle Here
+
+var Base = parseFloat(prompt("Enter BASE :"));
+var PerpenticularHeight = parseFloat(prompt("Enter PERPENDICULAR HEIGHT :"));
+
+ var Area = (Base * PerpenticularHeight)/2;
+
+ document.write("Area for Triangle =" + Area + "<br>");
+
+// Programme ends for triangle Here
+
+// Program for Trapezium starts here  
+
+var a = parseFloat(prompt("Enter A :"));
+var b = parseFloat(prompt("Enter B:"));
+var height = parseFloat(prompt("Enter Height :"));
+
+ var Area = ((a + b) * height)/2;
+
+ document.write("Area for Trapezium =" + Area + "<br>");
+
+// Program for Trapezium ends  here  
+
+// Program for Parallelogram starts here  
+
+var Base = parseFloat(prompt("Enter BASE (parallelogram):"));
+var PerpenticularHeight = parseFloat(prompt("Enter PERPENDICULAR HEIGHT (parallelogram) :"));
+
+Area = Base * PerpenticularHeight;
+document.write("Area for Parallelogram  =" + Area + "<br>");
+
+// Program for Parallelogram ends here  
+
+// Program for Rhombus starts here  
+
+var length = parseFloat(prompt("Enter Length :"));
+var Height = parseFloat(prompt("Enter  Height :"));
+
+ var Area = (length * Height)/2;
+
+ document.write("Area for Rhombus =" + Area + "<br>");
+
+// Program for Rhombus ends here  
+
+// Program for Kite starts here  
+
+var length = parseFloat(prompt("Enter Length :"));
+var Height = parseFloat(prompt("Enter  Height :"));
+
+ var Area = (length * Height)/2;
+
+ document.write("Area for Kite =" + Area + "<br>");
+
+// Program for Kite starts here  
+
+
+
+    </script>
+
+
+</body>
+</html>

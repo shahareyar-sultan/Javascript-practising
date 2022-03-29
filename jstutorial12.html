@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jstutorial 12</title>
+
+
+
+    <style>
+        h1 {
+        text-align: center;
+        color: rgb(69, 87, 80);
+        font-size: 4rem;
+        text-transform: capitalize;
+        text-shadow: 0 0.2rem;
+        }
+        p{
+            font-size: 3rem;
+            text-transform: ;
+        }
+
+        body{
+            font-size: 2rem;
+            font-weight: bold;
+            color: brown
+        }
+    </style>
+
+
+
+
+</head>
+<body>
+    
+<h1><u>Temperature converter</u></h1>
+
+
+
+<script>
+
+// Convert from fahrenheit to celcius starts here
+
+var farn = parseFloat(prompt("Enter Fahrenheit :"));
+
+var cels = (farn-32)*(5/9);
+
+document.write("Temperature in Celcius =" + cels + "<br>" );
+
+// Convert from fahrenheit to celcius ends here
+
+
+// Convert from celcius to  fahrenheit  starts here
+
+
+var cels = parseFloat(prompt("Enter Celcius :"));
+
+var farn = (cels*(9/5))+32;
+
+document.write("Temperature in Fahrenheit =" + farn + "<br>" );
+
+// Convert from celcius to  fahrenheit  ends here
+
+
+</script>
+
+
+
+</body>
+</html>

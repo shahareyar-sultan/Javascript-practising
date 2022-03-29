@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jstutorial 8</title>
+
+
+    <style>
+        h1 {
+        text-align: center;
+        color: rgb(77, 47, 36);
+        font-size: 4rem;
+        }
+        p{
+            font-size: 3rem;
+        }
+
+        body{
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: brown
+        }
+    </style>
+
+
+
+</head>
+<body>
+    <h1><u>String related library functions</u></h1>
+<h2><u>Some functions</u></h2>
+<p>1. text.length</p>
+<p>2. prompt()</p>
+<p>3. text.charAt()</p>
+<p>4. text.toUpperCase()</p>
+<p>5. text.tolowerCase()</p>
+<p>6. text1.concat()</p>
+<p>7. text1.slice()</p>
+
+
+<script>
+
+/*
+var text = "Bangladesh";
+
+var len = text.length;
+document.write("Number of character: " + len);
+
+*/
+// Another way
+
+
+var text = "Bangladesh";
+// var len = text.length;
+document.write("Number of character" +  text.length + "<br>")
+
+
+var text = prompt("Enter your name : ");
+document.write(" Number of character" + text.length + " <br>");
+
+
+var text = " Kurigram ";
+document.write(text.charAt(5));
+
+var text = " <br> Nageswari ";
+text = text.toupperCase();
+document.write(text);
+
+var text1 = " <span><br>My village </span>";
+var text2 = " is beatiful <br>";
+var text = text1.concat(text2);
+document.write(text);
+
+
+var text1 = "Agriculture";
+var text1 = text1.slice(1, 7);
+document.write(text1);
+
+
+
+
+
+
+
+
+
+</script>
+
+
+
+    
+</body>
+</html>
